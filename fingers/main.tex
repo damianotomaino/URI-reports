@@ -11,6 +11,7 @@
 \usepackage{wrapfig} %add picture with text all around
 \usepackage{subcaption} %for the subpictures
 
+\usepackage{placeins} %dovrebbe risolvere lo spostarsi delle immagini
 \begin{document}
 
 
@@ -50,9 +51,7 @@ For the first test it was chosen a length of the actuators of 4 inches and a wid
 As shown on the pictures there are many chambers in the actuator and air pumped in the 4 actuators will bend them. 
 The mold was printed in PLA with the 3D printer model \textbf{Prusa I3 MK2S} and for the actuators the material chosen was \textbf{\textit{Ecoflex 00-30 [1]}}, bought on \underline{www.reynoldsam.com}. This material is a silicone rubber extraordinarily soft, strong and durable.
 
-As described on Instructables 
-%\cite{Air-Powered Soft Robot Gripper},
- the separate fingers were closed by a bigger layer of silicon rubber.
+As described on Instructables \cite{Air-Powered Soft Robot Gripper}, the separate fingers were closed by a bigger layer of silicon rubber.
 
 \begin{figure} [h]
     \centering
@@ -78,7 +77,32 @@ To bend in a good way, the actuator’s sides need to have two different stiffne
 We tried to realize a finger realized by a high repeatable process.
 To do that we are using three different molds. 
 
-
+\begin{figure}[h]
+	\centering
+	\begin{subfigure}{0.3\textwidth}
+		\centering
+		\includegraphics[ height=4cm]{Pictures/fingerOnToroidal/MoldFirstStep.jpg} 
+		\caption{First step mold}
+		\label{fig:moldFirstStep}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.3\textwidth}
+		\centering
+		\includegraphics[height=4cm]{Pictures/fingerOnToroidal/MoldSecondStep.JPG}
+		\caption{Second step mold}
+		\label{fig:moldSecondStep}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.3\textwidth}
+	\centering
+		\includegraphics[height=4cm]{Pictures/fingerOnToroidal/MoldThirdStep.jpg}
+		\caption{Third step mold}
+		\label{fig:moldThirdStep}
+	\end{subfigure}
+ 
+	\caption{Molds utilized}
+	\label{fig:allMold}
+\end{figure}
 
 It is based on 6 steps:
 \begin{enumerate}
@@ -92,7 +116,13 @@ It is based on 6 steps:
 
 Every time a mold is filled by a silicon rubber we used the vacuum chamber at 1 bar \emph{at about} 5 minutes, to reduce the number of bubbles, and the pressure chamber at 2 bar for all the time of curing to reduce the dimension of the bubbles remained in the mix .
 
-PICTURES OF VACUUM CHAMBER AND PRESSURE CHAMBER
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Pictures/fingerOnToroidal/VacuumPressureChambers.png}
+    \caption{Vacuum chamber and pressure chamber}
+    \label{fig:vacuumPressureChamber}
+\end{figure}
+
 
 
 \subsection{EcoFlex 0030}
@@ -101,12 +131,17 @@ To realize the first step we used the EcoFlex 0030 in the first mold. The intern
 For this step it is necessary approximately 20 grams of silicon rubber. 
 To control as well as possible the quantity the mold has a line defining the boundary to reach.
 
-PICTURE OF THE LINE IN THE FIRST MOLD
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.3\textwidth]{Pictures/fingerOnToroidal/LineMoldFirstStep.JPG}
+	\caption{Line to define the boundary to reach with EcoFlex 0030}
+	\label{fig:ecoFlexLine}
+\end{figure}
 
 
 \subsection{Smooth-Sil 950}
 
-\begin{wrapfigure}{r}{0.5\textwidth}
+\begin{wrapfigure}[10]{!ht}{0.5\textwidth}
 \centering
     \includegraphics[width=0.2\textwidth]{Pictures/fingerOnToroidal/SmoothSil950filling.jpg}
     \caption{Smooth-Sil 950 filling}
@@ -121,15 +156,35 @@ After few tests we decided to use this material. Without put out the solidified 
 
 To control the bending of the finger it is necessary to reduce the radial deformation. A possible way is by wrapping a ribbon all around the shape of the finger and depending on how the ribbon is wrapped it changes the way to bend. To make easy the wrapping it was added a guide for all the finger.
 
-PICTURE OF THE WRAPPED FINGER
-
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Pictures/fingerOnToroidal/wrappedFinger.jpg}
+	\caption{Wrapper finger}
+	\label{fig:wrappedFinger}
+\end{figure}
 
 \subsection{SortaClear40}
 The reasons of this step are to have a smooth geometry covering and preserving the ribbon and because the EcoFlex 0030 is too flexible and during the bending the high pressure causes the excessive swelling between one winding and the other.
 
-PICTURE OF THE SWELLING WITHOUT SORTACLEAR
 
-PICTURE WITH SORTACLEAR
+
+
+\begin{figure}[h]
+	\begin{subfigure}{0.5\textwidth}
+		\includegraphics[width=1\linewidth, height=0.3\linewidth]{Pictures/fingerOnToroidal/WithoutCover.jpg} 
+		\caption{Finger without cover}
+		\label{fig:withoutCover}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}{0.5\textwidth}
+		\includegraphics[width=1\linewidth, height=0.3\linewidth]{Pictures/fingerOnToroidal/WithCover.jpg}
+		\caption{Finger with cover}
+		\label{fig:withCover}
+	\end{subfigure}
+ 
+	\caption{Picture of the finger without and with the cover in SortaClear}
+	\label{fig:external}
+\end{figure}
 
 
 \subsection{SmoothSil 950 connector covering}
@@ -141,9 +196,15 @@ PICTURE WITH SORTACLEAR
 \end{wrapfigure}
 To connect the finger to the manifold we are using a male quick connector. it is necessarya stable and durable connection between the finger and the manifold, because of that it was used the SmoothSil 950. 
 
-PICTURE OF THE MOLD FOR COVER 
+The connector is added at a later stage to add silicon glue betuen the connector and the SmoothSil 950 cover.
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.5\textwidth]{Pictures/fingerOnToroidal/ConnectorCover.jpg}
+	\caption{Connector coverin SmoothSil 950}
+	\label{fig:connectorCover}
+\end{figure}
 
-\subsection
+%\subsection
 
 \newpage
 
