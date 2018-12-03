@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.26)  27 NOV 2018 18:07
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6800 64-bit) (preloaded format=pdflatex 2018.9.26)  29 NOV 2018 15:29
 entering extended mode
-**C:/Users/crist/Desktop/reports/URI-reports/remote.tex
-(C:/Users/crist/Desktop/reports/URI-reports/remote.tex
+**E:/URI/URI-reports/remote/remote.tex
+(E:/URI/URI-reports/remote/remote.tex
 LaTeX2e <2018-04-01> patch level 5
 ("C:\Users\crist\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
@@ -54,36 +54,45 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
+("C:\Users\crist\AppData\Local\Programs\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.st
+y"
+\wrapoverhang=\dimen105
+\WF@size=\dimen106
+\c@WF@wrappedlines=\count88
+\WF@box=\box26
+\WF@everypar=\toks17
+Package: wrapfig 2003/01/31  v 3.6
+)
 No file remote.aux.
 \openout1 = `remote.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 ("C:\Users\crist\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.mk
 ii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count88
-\scratchdimen=\dimen105
-\scratchbox=\box26
-\nofMPsegments=\count89
-\nofMParguments=\count90
-\everyMPshowfont=\toks17
-\MPscratchCnt=\count91
-\MPscratchDim=\dimen106
-\MPnumerator=\count92
-\makeMPintoPDFobject=\count93
-\everyMPtoPDFconversion=\toks18
+\scratchcounter=\count89
+\scratchdimen=\dimen107
+\scratchbox=\box27
+\nofMPsegments=\count90
+\nofMParguments=\count91
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count92
+\MPscratchDim=\dimen108
+\MPnumerator=\count93
+\makeMPintoPDFobject=\count94
+\everyMPtoPDFconversion=\toks19
 )
 ("C:\Users\crist\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-
 base.sty"
@@ -149,14 +158,106 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 12.
+(Font)              <14.4> on input line 13.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 12.
-<images/arm.png, id=1, 451.6875pt x 602.25pt>
+(Font)              <7> on input line 13.
+ [1
+
+{C:/Users/crist/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+
+! LaTeX Error: Environment wrapfig undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 \begin{wrapfig}
+                    {l}
+? H
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+? 
+<images/arm.png, id=7, 451.6875pt x 602.25pt>
 File: images/arm.png Graphic file (type png)
 <use images/arm.png>
-Package pdftex.def Info: images/arm.png  used on input line 18.
+Package pdftex.def Info: images/arm.png  used on input line 19.
 (pdftex.def)             Requested size: 97.5pt x 129.99583pt.
 
-!pdfTeX error: pdflatex (file ./remote.pdf): reading image file failed
- ==> Fatal error occurred, no output PDF file produced!
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20     \caption
+                 {Robotic arm}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{wrapfig}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 \end{wrapfig}
+                  
+? 
+
+! LaTeX Error: Environment wrapfig undefined.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 \begin{wrapfig}
+                    {r}
+? 
+<images/remote.jpg, id=8, 282.8385pt x 211.8825pt>
+File: images/remote.jpg Graphic file (type jpg)
+<use images/remote.jpg>
+Package pdftex.def Info: images/remote.jpg  used on input line 26.
+(pdftex.def)             Requested size: 97.5pt x 73.0381pt.
+
+! LaTeX Error: \caption outside float.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27     \caption
+                 {Remote controller}
+? 
+
+! LaTeX Error: \begin{document} ended by \end{wrapfig}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 \end{wrapfig}
+                  
+? 
+[2 <E:/URI/URI-reports/remote/images/arm.png> <E:/URI/URI-reports/remote/images
+/remote.jpg>] (remote.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1512 strings out of 492972
+ 22655 string characters out of 3126622
+ 82845 words of memory out of 3000000
+ 5392 multiletter control sequences out of 15000+200000
+ 5150 words of font info for 19 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,6n,25p,318b,189s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/crist/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Users/crist/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr17.pfb>
+Output written on remote.pdf (2 pages, 919068 bytes).
+PDF statistics:
+ 19 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+
